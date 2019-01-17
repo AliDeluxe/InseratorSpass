@@ -67,6 +67,15 @@
         <url-pattern>/hauptseite</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>anzeige_erstellen_servlet</servlet-name>
+        <servlet-class>de.unidue.inf.is.AnzeigeErstellenServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>anzeige_erstellen_servlet</servlet-name>
+        <url-pattern>/anzeige_erstellen</url-pattern>
+    </servlet-mapping>
+
     <!-- ******************************************************** -->
 
     <security-constraint>
