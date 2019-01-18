@@ -20,25 +20,25 @@
         <h4> Kategorie: </h4>
           <li>
             <label>
-              <input type="checkbox" name="kategorie" value="digital">
+              <input type="checkbox" name="kategorie1" value="digital">
               Digitale Ware
             </label>
           </li>
           <li>
             <label>
-               <input type="checkbox" name="kategorie" value="hausGarten">
+               <input type="checkbox" name="kategorie2" value="hausGarten">
                Haus & Garten
             </label>
           </li>
           <li>
             <label>
-              <input type="checkbox" name="kategorie" value="modeKosmetik">
+              <input type="checkbox" name="kategorie3" value="modeKosmetik">
               Mode & Kosmetik
             </label>
           </li>
           <li>
             <label>
-              <input type="checkbox" name="kategorie" value="elektronik">
+              <input type="checkbox" name="kategorie4" value="elektronik">
               Elektronik & Multimedia
             </label>
           </li>
