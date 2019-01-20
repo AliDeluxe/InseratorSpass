@@ -9,43 +9,34 @@
     		<h1> Anzeige erstellen </h1>
     </div>
 
-  <form name="anzeige" action="anzeige_detail" method="post">
+  <form name="anzeige" action="/anzeige_erstellen" method="post">
+
     Titel: <br>
     <input type="text" name="titel" style="300px;" max="100"/> <br> <br>
+
     Preis(€): <br>
-    <input type="number" name="preis" min="0" style="width:100px;"/> <br> <br>
+    <input type="number" name="preis" step="0.01" min="0" style="width:100px;"/> <br> <br>
+
     Beschreibung: <br>
-    <textarea name="beschreibung" form="usrform">Beschreiben Sie ihren Artikel</textarea> <br> <br>
+    <input type="textarea" name="beschreibung" style="width:400px;height:100px;"/> <br> <br>
 
-        <h4> Kategorie: </h4>
-          <li>
-            <label>
-              <input type="checkbox" name="kategorie1" value="digital">
-              Digitale Ware
-            </label>
-          </li>
-          <li>
-            <label>
-               <input type="checkbox" name="kategorie2" value="hausGarten">
-               Haus & Garten
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="kategorie3" value="modeKosmetik">
-              Mode & Kosmetik
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="kategorie4" value="elektronik">
-              Elektronik & Multimedia
-            </label>
-          </li>
-    <br>
+    <h4> Kategorie: </h4>
+
+     <input type="checkbox" name="kategorie" value="Digitale Waren">
+     Digitale Waren
+
+     <input type="checkbox" name="kategorie" value="Haus & Garten">
+     Haus & Garten
+
+     <input type="checkbox" name="kategorie" value="Mode & Kosmetik">
+     Mode & Kosmetik
+
+     <input type="checkbox" name="kategorie" value="Multimedia & Elektronik">
+     Elektronik & Multimedia
+    <br> <br>
 
 
-    <input type="submit" value="Erstellen" />
+  <input type="submit" value="Erstellen" />
   </form>
  
 

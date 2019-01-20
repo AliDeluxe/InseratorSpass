@@ -7,21 +7,18 @@ public final class Anzeige {
     private String titel;
     private double preis;
     private String beschreibung;
-    private Set<String> kategorien;
+    private String[] kategorien;
 
 
     public Anzeige() {
     }
 
 
-    public Anzeige(String titel, double preis, String beschreibung, Set<String> kategorien ) {
-
+    public Anzeige(String titel, double preis, String beschreibung, String[] kategorien ) {
         this.titel = titel;
         this.preis = preis;
         this.beschreibung = beschreibung;
         this.kategorien = kategorien;
-
-
 
     }
 
@@ -37,7 +34,7 @@ public final class Anzeige {
         return beschreibung;
     }
 
-    public Set<String> getKategorien() {
+    public String[] getKategorien() {
         return kategorien;
     }
 }

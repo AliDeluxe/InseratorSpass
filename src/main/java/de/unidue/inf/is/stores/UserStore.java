@@ -19,7 +19,7 @@ public final class UserStore implements Closeable {
 
     public UserStore() throws StoreException {
         try {
-            connection = DBUtil.getConnection("testdb");
+            connection = DBUtil.getConnection("insdb");
             connection.setAutoCommit(false);
         }
         catch (SQLException e) {
